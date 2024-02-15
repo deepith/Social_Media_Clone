@@ -36,3 +36,126 @@
     transform: rotate(360deg);
   }
 }
+
+.navbar {
+  background: linear-gradient(to right, #007bff, #00407f);
+  color: white;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 20px;
+}
+
+.links a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+  font-size: 18px;
+}
+
+.navbar .links {
+  text-align: center;
+  margin-right: 50px;
+}
+
+body {
+  background-color: #f5f5f5; /* Change this to your preferred body background color */
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar .links a:hover {
+  text-decoration: underline;
+}
+
+.navbar .user {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 50px;
+}
+
+.user img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.user p {
+  margin-right: 10px;
+  font-size: 16px;
+}
+
+.logout-button {
+  background-color: #dc3545; /* Customize the button background color */
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-left: 20px;
+}
+
+.logout-button:hover {
+  background-color: #c82333; /* Customize the button background color on hover */
+}
+
+.form-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  font-family: 'Arial', sans-serif;
+}
+
+form h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+
+form {
+  background: linear-gradient(135deg, #007bff, #1a1a1a);
+  padding: 70px;
+  border-radius: 10px;
+  color: white;
+  max-width: 500px;
+  width: 100%;
+  
+}
+
+form input[type="text"] {
+  width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 20px;
+
+}
+
+form textarea {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    font-family: 'Arial', sans-serif;
+}
+
+form input[type="submit"] {
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background: #007bff;
+    color: white;
+    cursor: pointer;
+    transition: background .3s;
+}
+
+form input[type="submit"]:hover {
+  background: #1a1a1a;
+}
